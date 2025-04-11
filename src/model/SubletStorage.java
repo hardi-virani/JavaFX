@@ -2,6 +2,7 @@ package model;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.scene.image.Image;
 
 public class SubletStorage {
 	
@@ -9,7 +10,8 @@ public class SubletStorage {
     private static final ObservableList<SubletListing> listings = FXCollections.observableArrayList();
 
     static {
-        listings.add(new SubletListing("Near Northeastern University", "Boston", 900.0, "Close to campus", "short", "@../resources/images/sample.webp"));
+//        listings.add(new SubletListing("Near Northeastern University", "Boston", 900.0, "Close to campus", "short", "@../resources/images/Room1.jpg"));
+    	listings.add(new SubletListing("Near Northeastern University", "Boston", 900.0, "Close to campus", "short", "/resources/images/Room1.jpg"));
         listings.add(new SubletListing("Waterfront park 1 private room", "Cambridge", 1200.0, "Furnished and quiet","short"));
         listings.add(new SubletListing("Luxury Flat #1", "Cambridge", 1998.77, "Close to campus","short"));
         listings.add(new SubletListing("Sunny Room #2", "Allston", 1201.78, "Newly renovated","short"));

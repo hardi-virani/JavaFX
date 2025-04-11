@@ -1,9 +1,3 @@
-/* 
- * ThriftHive - Refined Modern Theme 2.0
- * A comprehensive styling solution for college sublet application
- * Compatible with JavaFX on Eclipse/macOS
- */
-
 /* Base Colors & Fonts */
 .root {
     /* Modern gradient background */
@@ -610,6 +604,8 @@
     -fx-text-fill: #2c3e50;
     -fx-font-size: 14px;
 }
+
+
 
 /* ========== SPECIFIC PAGE STYLES ========== */
 /* Login Page */

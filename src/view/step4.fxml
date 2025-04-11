@@ -16,7 +16,7 @@
     <TextField fx:id="titleField" promptText="Title" maxWidth="400"/>
     <Label fx:id="titleErrorLabel" text="Please enter a title" styleClass="error-label" visible="false" />
     
-    <Label text="Upload 1 photo" style="-fx-font-size: 15px; -fx-font-weight: bold;"/>
+    <Label text="Upload a photo" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
     <Button text="Upload Image" onAction="#handleUpload" />
     <Label fx:id="uploadPathLabel" maxWidth="400" style="-fx-font-size: 10px; -fx-font-weight: bold;" />
     
